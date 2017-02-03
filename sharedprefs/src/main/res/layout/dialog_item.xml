@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_dialog_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="Put ID"/>
+    <EditText
+        android:id="@+id/et_dialog_nName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dialog_id"
+        android:hint="Put Name"/>
+    <EditText
+        android:id="@+id/et_dialog_sName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dialog_nName"
+        android:hint="Put Surname"/>
+    <EditText
+        android:id="@+id/et_dialog_Telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dialog_sName"
+        android:hint="Put Telephone Number"/>
+    <EditText
+        android:id="@+id/et_dialog_Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dialog_Telephone"
+        android:hint="Put Mail"/>
+    <EditText
+        android:id="@+id/et_dialog_Skype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_dialog_Mail"
+        android:hint="Put Skype Login"/>
+
+</RelativeLayout>

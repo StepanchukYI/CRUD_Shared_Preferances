@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SQLiteSP</string>
+    <string name="et_second_search">Search</string>
+    <string name="edit_text_person_name">Name</string>
+    <string name="edit_text_person_surname">Surname</string>
+    <string name="edit_text_person_number">Phone number</string>
+    <string name="edit_text_person_mail">Mail</string>
+    <string name="edit_text_person_skype">Skype</string>
+</resources>

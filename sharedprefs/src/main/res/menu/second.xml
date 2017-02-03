@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.adm.sharedpefscrud.UI.Activities.SecondActivity">
+    <item
+        android:id="@+id/action_get_person"
+        android:orderInCategory="100"
+        android:title="@string/menu_second_get_person"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_persons"
+        android:orderInCategory="100"
+        android:title="@string/menu_second_delete_all_persons"
+        app:showAsAction="never" />
+
+</menu>

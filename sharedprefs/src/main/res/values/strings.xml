@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SharedPefsCRUD</string>
+    <string name="edit_text_person_id">id</string>
+    <string name="edit_text_person_name">name</string>
+    <string name="button_add_person">Add Person</string>
+    <string name="edit_text_person_surname">surname</string>
+    <string name="edit_text_person_number">phone number</string>
+    <string name="edit_text_person_mail">mail</string>
+    <string name="edit_text_person_skype">skype</string>
+    <string name="list_person">Person list</string>
+    <string name="et_second_search">Search</string>
+    <string name="menu_second_delete_all_persons">Delete all Persons</string>
+    <string name="menu_second_get_person">Get Person</string>
+</resources>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sqllitecrud.UI.Activities.SecondActivity">
+    <item
+        android:id="@+id/action_get_person"
+        android:orderInCategory="100"
+        android:title="Get Person"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_persons"
+        android:orderInCategory="100"
+        android:title="Delete all Persons"
+        app:showAsAction="never" />
+
+</menu>
